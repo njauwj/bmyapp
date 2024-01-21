@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 60m
+spring:
+  application:
+    name: myapp
+  # ?????
+  datasource:
+    url: jdbc:mysql://localhost:3307/myapp?characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: "010622wj"
+    driver-class-name: com.mysql.cj.jdbc.Driver
